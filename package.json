@@ -1,15 +1,17 @@
 {
-  "name": "youtube-audio-stream",
-  "description": "youtube-audio-stream",
-  "version": "0.0.5",
+  "name": "audiofingerprint",
+  "description": "audiofingerprint",
+  "version": "0.0.1",
   "main": "index.js",
   "keywords": [
     "audio",
- "fingerprint"
+    "fingerprint"
   ],
   "dependencies": {
-    "fluent-ffmpeg": "^2.0.0-rc3",
-    "through2": "^0.6.3",
-    "ytdl-core": "^0.5.0"
+    "acoustid": "^1.2.1",
+    "fluent-ffmpeg": "*",
+    "fpcalc": "^1.1.2",
+    "pcm-utils": "evandrododo/node-pcm-utils",
+    "youtube-audio-stream": "*"
   }
 }
