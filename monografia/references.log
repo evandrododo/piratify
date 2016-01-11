@@ -1,0 +1,22 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2015.12.26)  11 JAN 2016 15:29
+entering extended mode
+**C:/Users/Evandro/Desktop/tccc/references.bib
+(C:/Users/Evandro/Desktop/tccc/references.bib
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.83  issue_
+            date = {November  2005},
+? 
+! Emergency stop.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.83  issue_
+            date = {November  2005},
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

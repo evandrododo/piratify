@@ -1,0 +1,59 @@
+\changetocdepth {4}
+\select@language {brazil}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{13}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problema}{13}{section.1.1}
+\contentsline {section}{\numberline {1.2}Abordagem Colaborativa}{14}{section.1.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Objetivos}}{15}{chapter.2}
+\contentsline {section}{\numberline {2.1}Objetivos Gerais}{15}{section.2.1}
+\contentsline {section}{\numberline {2.2}Objetivos Espec\IeC {\'\i }ficos}{15}{section.2.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Audio Fingerprint}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Pr\IeC {\'e}-processamento}{17}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Enquadramento}{17}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Transformada}{18}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Extra\IeC {\c c}\IeC {\~a}o de Caracter\IeC {\'\i }sticas}{18}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}P\IeC {\'o}s-processamento}{18}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Modelagem do Fingerprint}{19}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Busca e acesso ao BD}{19}{subsection.3.1.7}
+\contentsline {subsection}{\numberline {3.1.8}Teste de Acertos}{19}{subsection.3.1.8}
+\contentsline {section}{\numberline {3.2}Chromaprint}{19}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}PCP - \emph {Pitch Class Profile} }{19}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\emph {Chroma} musical e a m\IeC {\'u}sica ocidental }{20}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Compara\IeC {\c c}\IeC {\~a}o de fingerprint por filtro visual.}{21}{subsection.3.2.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Metodologia}}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'e}todos e Etapas}{23}{section.4.1}
+\contentsline {section}{\numberline {4.2}Materiais Utilizados}{23}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Servidor de desenvolvimento}{23}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Github}{23}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}V8 JavaScript Engine}{23}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Node.js}{24}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}npm}{24}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}FFmpeg}{24}{subsection.4.2.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Desenvolvimento}}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Modelo Te\IeC {\'o}rico e estrutura modular}{25}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Pr\IeC {\'e}-processamento}{26}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Enquadramento}{26}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Transformada}{27}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Extra\IeC {\c c}\IeC {\~a}o de Caracter\IeC {\'\i }sticas}{27}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}P\IeC {\'o}s-processamento}{28}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Modelagem do Fingerprint}{28}{subsection.5.1.6}
+\contentsline {section}{\numberline {5.2}Gera\IeC {\c c}\IeC {\~a}o de hash com modelo de contagem de frequ\IeC {\^e}ncias}{29}{section.5.2}
+\contentsline {section}{\numberline {5.3}Base de dados e reconhecimento de m\IeC {\'u}sicas}{30}{section.5.3}
+\contentsline {section}{\numberline {5.4}Gera\IeC {\c c}\IeC {\~a}o de hash \emph {Chroma-based}}{31}{section.5.4}
+\contentsline {section}{\numberline {5.5}Busca, acesso e teste de acertos}{31}{section.5.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Conclus\IeC {\~a}o}}{33}{chapter.6}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{34}{section*.11}
+\vspace {\cftbeforechapterskip }

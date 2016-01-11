@@ -1,0 +1,25 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.18)  11 JAN 2016 16:22
+entering extended mode
+**C:/Users/Evandro/Desktop/tccc/audiofingerprint.tex
+(C:/Users/Evandro/Desktop/tccc/audiofingerprint.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+! Undefined control sequence.
+l.1 \chapter
+            {Fundamentação Teórica}
+? 
+! Emergency stop.
+l.1 \chapter
+            {Fundamentação Teórica}
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 493634
+ 222 string characters out of 3143737
+ 52604 words of memory out of 3000000
+ 3491 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 5i,0n,1p,88b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

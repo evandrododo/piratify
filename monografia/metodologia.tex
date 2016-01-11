@@ -1,0 +1,45 @@
+\chapter{Metodologia}
+\label{c.metodologia}
+
+\section{Métodos e Etapas}
+\label{s.metodoseetapas}
+
+Para o desenvolvimento do projeto foi realizado o levantamento bibliográfico de tecnologias existentes e modelos organizacionais referentes à extração de \emph{Audio Fingerprint}, assim como a comparação específica de modelos de ondas sonoras de músicas e melodias.
+
+Com a base teórica definida a etapa seguinte foi aplicar uma estrutura modular que correspondesse ao modelo teórico, para que todas as etapas da extração e reconhecimento do \emph{audio fingerprint} possam ser modificadas sem que alterem o funcionamento geral do processo. Essa estrutura adaptável foi aplicada com base no modelo teórico genérico de reconhecimento de áudio.
+
+A terceira e última etapa foi o desenvolvimento de uma aplicação de reconhecimento específico de músicas, utilizando um cálculo de \emph{audio fingerprint} baseado em representações que levam em conta a repetição de refrões através da análise baseada em altura tonal e \emph{chroma} musical.
+
+\section{Materiais Utilizados}
+\label{s.materiaisutilizados}
+
+
+\subsection{Servidor de desenvolvimento}
+\label{s.v8}
+
+Para desenvolvimento do projeto foi utilizada uma máquina externa com 512MB de RAM, Disco SSD com 20GB e Ubuntu 14.04 x64.
+
+\subsection{Github}
+\label{s.github}
+
+O Github é ao mesmo tempo um servidor de armazenamento de código e uma rede social onde pode-se submeter modificações, fazer cópias e acompanhar modificações de códigos de outras pessoas. A rede foi essencial para o desenvolvimento deste projeto por armazenar vários sub-módulos e disponibilizar código-fonte para consulta.
+
+\subsection{V8 JavaScript Engine}
+\label{s.v8}
+
+V8 é um projeto open-source da Google para interpretação de Javascript, escrito em C++ e utilizado no navegador \emph{Google Chrome}. Ele implementa o ECMAScript e pode ser inserido em aplicações C++ nativas.
+
+\subsection{Node.js}
+\label{s.nodejs}
+
+O Node.js é um interpretador \emph{JavaScript} multiplataforma que utiliza o \emph{V8 JavaScript Engine}, foi criado em 2009 por Ryan Dahl e atualmente é utilizado para aplicações variadas. Seu funcionamento \emph{single threaded} simplifica a construção da aplicação, foi escolhido para o desenvolvimento deste projeto por facilitar o desenvolvimento modular e comunicação entre os módulos.
+
+\subsection{npm}
+\label{s.npm}
+
+O npm é uma sigla para \emph{node package manager} mas é um gerenciador de pacotes geral que implementa não somente os pacotes de node como também de projetos variados em javascript e outras linguagens. O npm permite a instalação e gerenciamento de pacotes e bibliotecas de maneira facilitada, coordenando as versões utilizadas de acordo com a necessidade do projeto.
+
+\subsection{FFmpeg}
+\label{s.ffmpeg}
+
+O FFmpeg é um programa externo multiplataforma utilizado através do node. Ele grava, converte e cria \emph{stream} de vários formatos de áudio e vídeo.

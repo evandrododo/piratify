@@ -1,0 +1,32 @@
+\chapter{Introdução}
+\label{c.introducao}
+
+Em 1979, Tom Truscott e Jim Ellis da Universidade Duke criaram a Usenet \cite{unite10}. Uma rede de comunicação onde as mensagens são agrupadas por assunto e exibidas em ordem cronológica de resposta, uma prévia dos fóruns virtuais que temos hoje. 
+Como não existiam serviços de hospedagem de dados, a rede mantinha as mensagens armazenadas utilizando um conjunto de protocolos para propagar a informação de forma distribuída: Quando um usuário criava um artigo, ele ficava disponível somente na máquina deste usuário, cada máquina ligada à rede atualizava e mantinha as newsfeeds que possuía, fazendo com que o artigo criado fosse copiado diretamente em cada servidor até que estivesse presente em todos as máquina ligadas à rede.
+
+Esse formato de distribuíção permite com que cada usuário mantenha em sua máquina somente os artigos referentes aos assuntos que lhe são de interesse, e fomenta a discussão em torno de assuntos específicos, eliminando a barreira física da curiosidade que existia até então. Segundo \citeauthoronline{NBERw7600} (\citeyear{NBERw7600}, tradução nossa) com a difusão da Usenet o processo de compartilhamento de software foi bastante acelerado e como o número de websites cresceu rapidamente (de 3 em 1979 para 400 em 1982), a habilidade dos programadores em compartilhar tecnologias foi consideravelmente melhorada.
+
+Com o crescente aumento da velocidade de transferência de dados das redes, o compartilhamento passou de uma simples troca de informação para uma troca cultural, popularizando o acesso a versões virtuais de todo tipo de conteúdo audiovisual. Essa popularização alterou a forma como funcionava o mercado de consumo de músicas, videos e fotos e mudou a forma de como a produção cultural se desenvolveria futuramente, assim como todas as tecnologias que ainda estão se adaptando a esse novo modelo de compartilhamento.
+
+\section{Problema}
+\label{s.problema}
+
+O mercado da cultura musical das últimas décadas se manteve em um modelo onde a compra da música se limitava a um objeto físico que continha os dados do áudio, podendo ser reproduzido e até copiado, mas dependente do objeto para poder ouvir a música. Além de produto, a música é também comunicação intrapessoal, expressão emocional, parte da formação da cultura e do conceito de identidade do indivíduo. Com as facilidades da tecnologia além de mais fácil de consumir também ficou mais fácil de se produzir música. Uma música de 3 minutos comprimida em MP3\footnote{Formato MPEG-1/2 Audio Layer 3, tipo de compressão de áudio com perdas quase imperceptíveis ao ouvido humano.} ocupa aproximadamente 3MB, tornando-a um bem praticamente virtual por ocupar tão pouco espaço físico se comparado com os serviços de armazenamento disponíveis atualmente.
+
+As tecnologias construídas para auxiliar o desenvolvimento desse novo mercado musical, devido aos modelos competitivos de propriedade intelectual, demoram mais para alcançar um número maior de pessoas. Uma dessas tecnologias ainda não disponíveis é o reconhecimento e agrupamento de músicas através do fingerprint do áudio. Existem aplicativos e softwares para downlad que fazem essa tarefa, mas não existe um framework que seja ao mesmo tempo: disponível para adaptação, tenha alto nível de modularização e de fácil compreensão.
+
+
+\section{Abordagem Colaborativa}
+\label{s.abordagem}
+
+Segundo \citeauthoronline{unite10} (\citeyear{unite10}, Tradução nossa), projetos colaborativos permitem a criação conjunta e simultânea de conteúdo por muitos usuários finais e são, nesse sentido, provavelmente a mais democrática manifestação de conteúdo gerado pelo usuário.
+
+Ao desenvolver uma ferramenta que seja modular, é possível garantir uma maior coesão entre os componentes dessa ferramenta, pois cada módulo tem uma função definida e uma definição de formato de entrada e saída de dados.
+
+Por se trabalhar com código aberto o conteúdo disponível é altamente modificável, pois o código faz parte da implementação e da transmissão do conhecimento.
+Essa possibilidade de modificação faz com que o código seja continuamente refatorado e revisto, e dentro de padrões de desenvolvimento tende a melhorar sua qualidade final.
+
+Como diz \citeauthoronline{weber} (\citeyear{weber}, Tradução nossa) o código aberto não oblitera o lucro, o capitalismo, ou direitos intelectuais, e portanto não vai contra os modelos atuais de mercado, inclusive auxilia nos processos de todas as áreas sociais. O próprio formato do HTML\footnote{HyperText Markup Language (Linguagem de Marcação de Hipertexto).} e essa ampla distribuição de código aberto através da internet tem como efeito uma grande divulgação de linguagens e ferramentas open source. Ferramentas que antes precisavam de um conhecimento mais amplo em computação, agora podem ser manipuladas com uma chamada do script direto no navegador de quem está testando um pedaço de código.
+
+A utilização do formato modularizado garante também uma liberdade e uma intercomunicação entre trabalhos já desenvolvidos, como cálculos de transformadas e algoritmos de aprendizagem.%colocar mais libs usadas aqui
+
