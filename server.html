@@ -7,11 +7,14 @@
 <body></body>
 <script language=javascript>
     window.onload = function() {
-        var player = new Audio('youtube.com/watch?v=-Tdu4uKSZ3M');
-        player.preload = 'metadata';
-        player.play();
-        player.controls = true;
-        document.body.appendChild(player);
+        var url = prompt("Insira uma URL do youtube para reconhecimento de audio");
+        if (url != null) {
+            var player = new Audio(url);
+            player.preload = 'metadata';
+            player.play();
+            player.controls = true;
+            document.body.appendChild(player);
+        }
     };
 </script>
 </html>
